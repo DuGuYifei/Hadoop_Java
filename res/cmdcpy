@@ -1,0 +1,6 @@
+hadoop jar filtercount-1.0-SNAPSHOT.jar mapreduce.FilterCount -D mapred.reduce.slowstart.completed.maps=1.0 /user/adampap/WHV /user/lada16/lab3/q1-output
+hadoop jar visitoree-1.0-SNAPSHOT.jar mapreduce.CountCombo -D mapred.reduce.slowstart.completed.maps=1.0 /user/adampap/WHV /user/lada16/lab3/q2-output
+hadoop jar hourstat-1.0-SNAPSHOT.jar mapreduce.HourStat -D mapred.reduce.slowstart.completed.maps=1.0 /user/adampap/WHV /user/lada16/lab3/q3-output
+
+hdfs dfs -cat /user/lada16/lab3/q1-output/p* | grep "Elaine K Buckberg"
+hdfs dfs -cat /user/lada16/lab3/q2-output/p* | grep "Amy J Turner; Lambrew Jeanne"
