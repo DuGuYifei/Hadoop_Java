@@ -1,0 +1,3 @@
+hadoop jar pagerank-1.0-SNAPSHOT.jar mapreduce.PageRank -D N=4 -D K=10 -D B=0.8 /user/adampap/wikiSmall /user/lada16/lab5/q1-output
+hadoop jar pagerank-1.0-SNAPSHOT.jar mapreduce.PageRank -D N=4 -D K=10 -D B=1 /user/adampap/wikiDeadEnds /user/lada16/lab5/q2-output
+hadoop jar pagerank-1.0-SNAPSHOT.jar mapreduce.PageRank -D N=4 -D K=10 -D B=1  /user/adampap/wikiSpiderTraps /user/lada16/lab5/q3-output

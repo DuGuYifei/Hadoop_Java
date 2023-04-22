@@ -1,0 +1,3 @@
+mapreduce/PageRank$MatrixMapper.class
+mapreduce/PageRank$IdentityReducer.class
+mapreduce/PageRank.class
