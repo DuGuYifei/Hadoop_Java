@@ -1,0 +1,5 @@
+mapreduce/StackOverflow$PreloadMapper.class
+mapreduce/StackOverflow$CalculateReducer.class
+mapreduce/StackOverflow$IntArrayWritable.class
+mapreduce/StackOverflow$DoubleArrayWritable.class
+mapreduce/StackOverflow.class

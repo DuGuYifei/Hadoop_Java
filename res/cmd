@@ -1,0 +1,1 @@
+hadoop jar stackoverflow-1.0-SNAPSHOT.jar mapreduce.StackOverflow /user/adampap/extendedStackOverflow /user/lada16/lab6/output
